@@ -1,0 +1,20 @@
+import { Component } from '@angular/core';
+import { Menu } from '../../Models/Enum/menu.enum';
+
+@Component({
+  selector: 'app-menu',
+  standalone: true,
+  imports: [],
+  templateUrl: './menu.component.html',
+  styleUrl: './menu.component.css'
+})
+export class MenuComponent {
+  public itensMenu: Menu[] = Object.values(Menu);
+
+  menuValue:boolean=false;
+  toggleMenu(){
+    this.menuValue =! this.menuValue ;
+  }
+}
+
+

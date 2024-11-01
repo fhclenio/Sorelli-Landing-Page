@@ -1,0 +1,19 @@
+<div>
+    <div class="menu-icon" (click)="toggleMenu()">
+        <i class="bi bi-list"></i>
+    </div>
+    <div class="app-navbar" [class.mobile_menu]="menuValue">
+        <div class="menu-icon-close" (click)="toggleMenu()">
+            <i class="bi bi-x"></i>
+        </div>
+        <ul>
+            @for (item of itensMenu; track $index) {
+                <li>
+                    <a href="#">
+                        {{item}}
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
