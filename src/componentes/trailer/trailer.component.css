@@ -1,0 +1,31 @@
+* {
+    color: white;
+    font-size: 1vw;
+}
+
+span {
+    display: block;
+}
+
+.div-horario {
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding-top: 30px;
+    margin: 0;
+    background-color: black;
+}
+
+.imagem-logo {
+    width: 10vw;
+    height: auto;
+    position: relative;
+    top: 3.3vw;
+    left: 44vw;
+}
