@@ -1,20 +1,11 @@
 
 .imagem-a-melhor{
-    background: url(../../imagens/a-melhor.png);
-    background-repeat: no-repeat; 
-    background-size: contain;
     width: 100%;
     height: 70%;
 }
 
-.botao-peca-agora {
-    background-color:  #D52C29;
-    color: #fff;
+.botao {
     width: 16vw;
     height: 5vw;
-    font-size: 1.9vw;
-    font-weight: bold;
-    border-radius: 3em;
-    border-color: #D52C29;
     position: relative;
 }

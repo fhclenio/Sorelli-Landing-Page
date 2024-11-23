@@ -2,6 +2,14 @@
     box-sizing: unset;
     
 }
+
+.menu-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .app-navbar ul{
     list-style: none;
     background: #fff;

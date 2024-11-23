@@ -1,0 +1,53 @@
+.imagem-pizzas {
+    width: 62vw;
+    height: auto;
+}
+
+.botao {
+    width: 26vw;
+    height: 5vw;
+    position: relative;
+    left: 18vw;
+}
+
+.titulo-autorais{
+    font-weight: bold;
+    font-size: 3vw;
+    width: 58vw;
+}
+
+.texto-autorais {
+    width: 58vw;
+    font-size: 1.7vw;
+}
+
+p {
+    text-align: center;
+}
+
+.reposicionar {
+    position: relative;
+    bottom: 20vw;
+}
+
+@media only screen and (orientation: portrait) {
+    .imagem-pizzas {
+        width: 78vw;
+    }
+
+    .titulo-autorais{
+        width: 78vw;
+    }
+    
+    .texto-autorais {
+        width: 78vw;
+    }
+
+    .botao {
+        left: 26vw;
+    }
+
+    .reposicionar {
+        bottom: 24vw;
+    }
+}

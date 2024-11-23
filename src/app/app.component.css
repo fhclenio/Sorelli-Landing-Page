@@ -1,0 +1,40 @@
+.imagem-logo {
+    width: 26vw;
+    height: 16vw;
+    position: relative;
+    top: 2.6vw;
+    left: 59vw;
+}
+
+.a-melhor{
+    display: block;
+    width: 33vw;
+    height: 20vw;
+    position: relative;
+    top: 13vw;
+    left: 12vw;
+}
+
+.imagem-inicio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.autorais {
+    display: block;
+    width: 62vw;
+    height: 81vw;
+    position: relative;
+    top: 0vw;
+    left: 19vw;
+}
+
+@media only screen and (orientation: portrait) {
+    .autorais {
+        left: 11vw;
+    }
+}
