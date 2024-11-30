@@ -3,15 +3,6 @@
     font-size: 1vw;
 }
 
-span {
-    display: block;
-}
-
-.div-horario {
-    box-sizing: border-box;
-    padding-bottom: 20px;
-}
-
 .titulo {
     font-weight: bold;
 }
@@ -28,4 +19,23 @@ span {
     position: relative;
     top: 3.3vw;
     left: 44vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icone {
+    height: auto;
+    width: 3vw;
+}
+
+.div-icones {
+    position: relative;
+    top: 3vw;
+}
+
+.imagem-gplay {
+    height: auto;
+    width: 16vw;;
 }

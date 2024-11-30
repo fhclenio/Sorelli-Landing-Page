@@ -1,31 +1,5 @@
-.imagem-logo {
-    width: 26vw;
-    height: 16vw;
-    position: relative;
-    top: 2.3vw;
-    left: 57.5vw;
-}
 
-.a-melhor{
-    display: block;
-    width: 33vw;
-    height: 20vw;
-    position: relative;
-    top: 13vw;
-    left: 12vw;
-}
-
-.imagem-inicio{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    filter:brightness(20%);
-}
-
-.autorais {
+app-autorais {
     display: block;
     width: 62vw;
     height: 81vw;
@@ -34,8 +8,13 @@
     left: 19vw;
 }
 
+app-trailer {
+    position: relative;
+    bottom: 0;
+}
+
 @media only screen and (orientation: portrait) {
-    .autorais {
+    app-autorais {
         left: 11vw;
     }
 }
