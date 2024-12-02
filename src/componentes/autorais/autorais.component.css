@@ -11,7 +11,7 @@
 }
 
 .titulo-autorais{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3vw;
     width: 58vw;
 }
@@ -19,6 +19,11 @@
 .texto-autorais {
     width: 58vw;
     font-size: 1.7vw;
+    font-weight: 400;
+}
+
+.destaque {
+    font-weight: 600;
 }
 
 p {
