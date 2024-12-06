@@ -14,10 +14,10 @@
 }
 
 .imagem-logo {
-    width: 10vw;
+    width: 12vw;
     height: auto;
     position: relative;
-    top: 3.3vw;
+    top: 4.4vw;
     left: 44vw;
 }
 
@@ -38,4 +38,25 @@ a {
 .imagem-gplay {
     height: auto;
     width: 16vw;;
+}
+
+.div-icones a {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+@media only screen and (orientation: portrait) {
+    * {
+        font-size: 1.5vw;
+    }
+
+    .imagem-gplay {
+        width: 19vw;;
+    }
+    
+    
+    .icone {
+        width: 3.8vw;
+    }
+
 }
