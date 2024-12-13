@@ -4,7 +4,7 @@
 }
 
 .botao {
-    width: 26vw;
+    width: 27vw;
     height: 5vw;
     position: relative;
     left: 18vw;
@@ -34,6 +34,7 @@ p {
     position: relative;
     bottom: 20vw;
 }
+
 
 @media only screen and (orientation: portrait) {
     .imagem-pizzas {

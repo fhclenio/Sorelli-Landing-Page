@@ -2,6 +2,15 @@
 app-autorais {
     display: block;
     width: 62vw;
+    height: 72vw;
+    position: relative;
+    top: 0vw;
+    left: 19vw;
+}
+
+app-pontos {
+    display: block;
+    width: 62vw;
     height: 81vw;
     position: relative;
     top: 0vw;
@@ -16,5 +25,6 @@ app-trailer {
 @media only screen and (orientation: portrait) {
     app-autorais {
         left: 11vw;
+        height: 78vw;
     }
 }

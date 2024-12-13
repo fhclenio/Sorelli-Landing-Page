@@ -27,9 +27,10 @@
 
 .app-navbar a{
     text-decoration: none;
-    width: 9vw;
+    width: 20vw;
     display: block;
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     color: black;
 }
