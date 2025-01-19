@@ -1,9 +1,9 @@
 .imagem-logo {
-    width: 26vw;
+    width: 17vw;
     height: auto;
     position: relative;
-    top: 2.3vw;
-    left: 59.5vw;
+    top: 4.8vw;
+    left: 62.5vw;
 }
 
 .a-melhor{
@@ -11,8 +11,8 @@
     width: 33vw;
     height: 20vw;
     position: relative;
-    top: 13vw;
-    left: 12vw;
+    top: 14vw;
+    left: 18vw;
 }
 
 .imagem-inicio{
@@ -23,4 +23,16 @@
     height: auto;
     z-index: -1;
     filter:brightness(20%);
+}
+
+
+@media only screen and (orientation: portrait) {
+    
+    .a-melhor{
+        width: 33vw;
+        height: 20vw;
+        top: 6vw;
+        left: 14vw;
+    }
+   
 }

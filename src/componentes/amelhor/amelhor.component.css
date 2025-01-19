@@ -1,11 +1,26 @@
 
 .imagem-a-melhor{
-    width: 100%;
-    height: 70%;
+    width: 28vw;
+    height: auto;
 }
 
 .botao {
-    width: 16vw;
-    height: 5vw;
+    margin-top: 4vw;
+    width: 12vw;
+    height: 3vw;
     position: relative;
+}
+
+
+@media only screen and (orientation: portrait) {
+
+    .imagem-a-melhor{
+        width: 40vw;
+    }
+
+    .botao {
+        margin-top: 2vw;
+        width: 25vw;
+        height: 7vw;
+    }
 }

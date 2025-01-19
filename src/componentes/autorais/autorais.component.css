@@ -1,12 +1,12 @@
 .imagem-pizzas {
-    width: 62vw;
+    width: 41vw;
     height: auto;
-    margin-bottom: -19vw;
+    margin-bottom: -12vw;
 }
 
 .botao {
-    width: 27vw;
-    height: 5vw;
+    width: 17vw;
+    height: 3vw;
     position: relative;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .texto {
-    width: 58vw;
+    width: 34vw;
     margin-bottom: 3vw;
     margin-top: -1vw;
 }
@@ -27,19 +27,28 @@ p {
 
 @media only screen and (orientation: portrait) {
     .imagem-pizzas {
-        width: 78vw;
+        width: 86vw;
     }
 
     .titulo-autorais{
         width: 78vw;
     }
     
+    .texto {
+        width: 86vw;
+    }
+
     .texto-autorais {
         width: 78vw;
     }
 
     .imagem-pizzas {
         margin-bottom: -24vw;
+    }
+    
+    .botao {
+        width: 48vw;
+        height: 7vw;
     }
     
 }

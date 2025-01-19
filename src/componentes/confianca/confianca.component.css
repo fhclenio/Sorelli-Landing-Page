@@ -7,18 +7,38 @@ p {
 }
 
 .texto {
-    width: 56vw;
+    width: 33vw;
     margin-bottom: 3vw;
     margin-top: -1vw;
 }
 
 .imagem-confianca {
-    width: 74vw;
+    width: 41vw;
     height: auto;
     margin-bottom: 3vw;
 }
 
 .botao {
-    width: 23vw;
-    height: 5vw;
+    width: 14vw;
+    height: 3vw;
+}
+
+
+@media only screen and (orientation: portrait) {
+    .texto {
+        width: 87vw;
+        margin-bottom: 4vw;
+        margin-top: -1vw;
+    }
+    
+    .imagem-confianca {
+        width: 86vw;
+        margin-bottom: 4vw;
+    }
+    
+    .botao {
+        width: 38vw;
+        height: 8vw;
+    }
+    
 }

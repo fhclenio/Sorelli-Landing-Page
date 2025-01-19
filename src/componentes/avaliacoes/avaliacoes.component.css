@@ -12,12 +12,12 @@
 }
 
 .imagem-estrelas {
-    width: 21vw;
+    width: 12vw;
     height: auto;
 }
 
 .imagem-moldura {
-    width: 20vw;
+    width: 19vw;
     height: auto;
     margin-bottom: 3vw;
 }
@@ -36,6 +36,6 @@ p.titulo {
     background-color:  #ffffff;
     color: #000000;
     border-color: #ffffff;
-    width: 25vw;
-    height: 5vw;
+    width: 16vw;
+    height: 3vw;
 }

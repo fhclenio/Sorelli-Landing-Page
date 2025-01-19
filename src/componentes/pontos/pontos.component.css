@@ -1,5 +1,10 @@
 .texto {
-    max-width: 19vw;
+    max-width: 13.6vw;
+    margin-top: 1vw;
+}
+
+.texto-menor {
+    max-width: 11vw;
 }
 
 p {
@@ -15,22 +20,22 @@ p {
 }
 
 .row {
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .icone-pontos {
-    width: 8.7vw;
+    width: 7vw;
     height: auto;
 }
 
 .botao {
-    width: 27vw;
-    height: 5vw;
+    width: 15vw;
+    height: 3vw;
 }
 
 .container {
     margin-top: 3vw;
-    margin-bottom: 2vw;
+    margin-bottom: 3vw;
 }
 
 @media only screen and (orientation: portrait) {
@@ -38,4 +43,19 @@ p {
         flex: 0 0 auto;
         width: 100%;
     }
+
+    .texto {
+        max-width: 36.6vw;
+        margin-top: 1vw;
+    }
+    
+    .texto-menor {
+        max-width: 30vw;
+    }
+
+    .botao {
+        width: 43vw;
+        height: 7vw;
+    }
+    
 }
