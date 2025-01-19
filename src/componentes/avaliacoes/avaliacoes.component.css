@@ -1,14 +1,16 @@
 .imagem-fundo {
   position: absolute;
-  top: 0;
+  top: -15vw;
   left: 0;
   width: 100%;
   height: auto;
   z-index: -1;
+  filter: brightness(20%);
 }
 
 .conteudo {
-  margin-top: 23vw;
+  margin-top: 16vw;
+  margin-bottom: 10vw;
 }
 
 .imagem-estrelas {
@@ -20,6 +22,8 @@
   width: 19vw;
   height: auto;
   margin-bottom: 3vw;
+  top: 2vw;
+  position: relative;
 }
 
 p {
@@ -38,6 +42,57 @@ p.titulo {
   border-color: #ffffff;
   width: 16vw;
   height: 3vw;
+  margin-top: 3vw;
+}
+
+swiper-container {
+  width: 45vw;
+}
+
+.texto-icone {
+  color: white;
+  font-size: 6.8vw;
+  position: absolute;
+  top: -2vw;
+  left: 8vw;
+}
+
+.review {
+  position: absolute;
+  top: 4vw;
+  height: 18vw;
+  overflow: auto;
+  word-wrap: break-word;
+  width: 19vw;
+  font-size: 1vw;
+}
+
+p {
+  color: white;
+}
+
+.swiper-button {
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: initial !important;
+  border-image: initial !important;
+  background-color: transparent !important;
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: -1.5vw;
+  top: 22vw;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: -5vw;
+  top: 22vw;
+}
+
+.container {
+  margin-bottom: 2vw;
 }
 
 @media only screen and (orientation: portrait) {
@@ -47,6 +102,51 @@ p.titulo {
   }
 
   .conteudo {
-    margin-top: 16vw;
+    margin-top: 23vw;
+    margin-bottom: 8vw;
+  }
+
+  .imagem-estrelas {
+    width: 25vw;
+  }
+
+  .imagem-moldura {
+    width: 32vw;
+  }
+
+  swiper-container {
+    width: 70vw;
+  }
+
+  .review {
+    top: 6vw;
+    height: 30vw;
+    width: 32vw;
+    font-size: 3vw;
+  }
+
+  .texto-icone {
+    font-size: 14.1vw;
+    top: -5vw;
+    left: 13.5vw;
+  }
+
+  .swiper-button-next {
+    right: -5.5vw;
+    top: 34vw;
+  }
+
+  .swiper-button-prev {
+    left: -8vw;
+    top: 34vw;
+  }
+
+  .imagem-seta {
+    height: auto;
+    width: 5vw;
+  }
+
+  .imagem-fundo {
+    top: -10vw;
   }
 }

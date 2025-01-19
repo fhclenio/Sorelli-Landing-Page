@@ -19,5 +19,5 @@ import { InicioComponent } from "../componentes/inicio/inicio.component";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Sorelli-Landing-Page';
+  title = 'Pizza Sorelli';
 }

@@ -5,7 +5,6 @@ app-trailer {
 
 app-avaliacoes {
   position: relative;
-  bottom: 9vw;
 }
 
 app-autorais {
@@ -14,8 +13,14 @@ app-autorais {
 
 app-metricas {
   display: block;
-  margin-top: 3vw;
-  margin-bottom: 9vw;
+  padding-top: 6vw;
+  padding-bottom: 9vw;
+  background: white;
+}
+
+app-campeas {
+  display: block;
+  margin-bottom: 8vw;
 }
 
 .margem-final {
@@ -23,13 +28,9 @@ app-metricas {
   margin-bottom: 22vw;
 }
 
-.fundo-esmaecido {
-  background: #fafafa;
-}
-
 @media only screen and (orientation: portrait) {
   app-metricas {
-    margin-top: 6vw;
-    margin-bottom: 11vw;
+    padding-top: 11vw;
+    padding-bottom: 11vw;
   }
 }
