@@ -1,41 +1,52 @@
 .imagem-fundo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
 }
 
 .conteudo {
-    margin-top: 16vw;
+  margin-top: 23vw;
 }
 
 .imagem-estrelas {
-    width: 12vw;
-    height: auto;
+  width: 12vw;
+  height: auto;
 }
 
 .imagem-moldura {
-    width: 19vw;
-    height: auto;
-    margin-bottom: 3vw;
+  width: 19vw;
+  height: auto;
+  margin-bottom: 3vw;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 p.titulo {
-    color: white;
-    margin-top: 1vw;
-    margin-bottom: 4vw;
+  color: white;
+  margin-top: 1vw;
+  margin-bottom: 4vw;
 }
 
 .botao {
-    background-color:  #ffffff;
-    color: #000000;
-    border-color: #ffffff;
-    width: 16vw;
-    height: 3vw;
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+  width: 16vw;
+  height: 3vw;
+}
+
+@media only screen and (orientation: portrait) {
+  .botao {
+    width: 41vw;
+    height: 7vw;
+  }
+
+  .conteudo {
+    margin-top: 16vw;
+  }
 }
