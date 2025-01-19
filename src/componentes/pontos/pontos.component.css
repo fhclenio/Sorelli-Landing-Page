@@ -1,26 +1,36 @@
-.titulo {
-    font-weight: 700;
-    font-size: 3vw;
-}
-
 .texto {
-    font-size: 1.7vw;
-    font-weight: 400;
+    max-width: 19vw;
 }
 
-#pontos {
-    position: relative;
-    top: 7vw;
-} 
-
-.container-pontos {
-    display: flex;
-
+p {
+    text-align: center;
 }
 
 .coluna {
     flex: 0 0 auto;
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.icone-pontos {
+    width: 8.7vw;
+    height: auto;
+}
+
+.botao {
+    width: 27vw;
+    height: 5vw;
+}
+
+.container {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
 }
 
 @media only screen and (orientation: portrait) {

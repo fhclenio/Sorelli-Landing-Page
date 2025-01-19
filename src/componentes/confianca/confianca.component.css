@@ -1,3 +1,24 @@
-#confianca {
-    position: relative;
+.titulo {
+    width: 58vw;
+}
+
+p {
+    text-align: center;
+}
+
+.texto {
+    width: 56vw;
+    margin-bottom: 3vw;
+    margin-top: -1vw;
+}
+
+.imagem-confianca {
+    width: 74vw;
+    height: auto;
+    margin-bottom: 3vw;
+}
+
+.botao {
+    width: 23vw;
+    height: 5vw;
 }

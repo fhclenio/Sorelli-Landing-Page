@@ -1,0 +1,41 @@
+.imagem-fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.conteudo {
+    margin-top: 16vw;
+}
+
+.imagem-estrelas {
+    width: 21vw;
+    height: auto;
+}
+
+.imagem-moldura {
+    width: 20vw;
+    height: auto;
+    margin-bottom: 3vw;
+}
+
+p {
+    text-align: center;
+}
+
+p.titulo {
+    color: white;
+    margin-top: 1vw;
+    margin-bottom: 4vw;
+}
+
+.botao {
+    background-color:  #ffffff;
+    color: #000000;
+    border-color: #ffffff;
+    width: 25vw;
+    height: 5vw;
+}

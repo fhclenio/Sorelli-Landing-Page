@@ -1,38 +1,27 @@
 .imagem-pizzas {
     width: 62vw;
     height: auto;
+    margin-bottom: -19vw;
 }
 
 .botao {
     width: 27vw;
     height: 5vw;
     position: relative;
-    left: 18vw;
 }
 
-.titulo-autorais{
-    font-weight: 700;
-    font-size: 3vw;
+.titulo{
     width: 58vw;
 }
 
-.texto-autorais {
+.texto {
     width: 58vw;
-    font-size: 1.7vw;
-    font-weight: 400;
-}
-
-.destaque {
-    font-weight: 600;
+    margin-bottom: 3vw;
+    margin-top: -1vw;
 }
 
 p {
     text-align: center;
-}
-
-.reposicionar {
-    position: relative;
-    bottom: 20vw;
 }
 
 
@@ -49,11 +38,8 @@ p {
         width: 78vw;
     }
 
-    .botao {
-        left: 26vw;
+    .imagem-pizzas {
+        margin-bottom: -24vw;
     }
-
-    .reposicionar {
-        bottom: 24vw;
-    }
+    
 }

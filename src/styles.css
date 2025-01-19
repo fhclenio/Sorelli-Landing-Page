@@ -69,3 +69,26 @@ hr {
     border-radius: 3em;
     border-color: #D52C29;
 }
+
+.destaque {
+    font-weight: 600;
+}
+
+.container-componente {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titulo{
+    font-weight: 700;
+    font-size: 2.5vw;
+
+}
+
+.texto {
+    font-size: 1.7vw;
+    font-weight: 400;
+}
