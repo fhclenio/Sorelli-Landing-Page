@@ -23,6 +23,14 @@ app-campeas {
   margin-bottom: 8vw;
 }
 
+app-pontos {
+  display: block;
+  padding-bottom: 12vw;
+  padding-top: 12vw;
+  margin-bottom: 10vw;
+  margin-top: 10vw;
+}
+
 .margem-final {
   display: block;
   margin-bottom: 22vw;
