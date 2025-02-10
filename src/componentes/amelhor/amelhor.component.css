@@ -1,14 +1,14 @@
 
 .imagem-a-melhor{
-    width: 28vw;
+    width: 24vw;
     height: auto;
 }
 
 .botao {
-    margin-top: 4vw;
-    width: 12vw;
-    height: 3vw;
+    margin-top: 1.5vw;
+    width: 10.5vw;
     position: relative;
+    left: 0.6vw;
 }
 
 

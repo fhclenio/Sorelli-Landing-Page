@@ -17,7 +17,7 @@
     padding: 0;
     margin: 0;
     text-align: center;
-    font-size: 17.6px;
+    font-size: 1vw;
     font-weight: 500;
 }
 
@@ -27,7 +27,6 @@
 
 .app-navbar a{
     text-decoration: none;
-    width: 19vw;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -45,6 +44,22 @@
 
 .esmaecido {
   display: none;
+}
+
+.botao-1 {
+  width: 8vw;
+}
+.botao-2 {
+  width: 9vw;
+}
+.botao-3 {
+  width: 12vw;
+}
+.botao-4 {
+  width: 7vw;
+}
+.botao-5 {
+  width: 6vw;
 }
 
 @media only screen and (orientation: portrait) {

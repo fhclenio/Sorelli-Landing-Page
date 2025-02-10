@@ -8,14 +8,14 @@ p {
 
 .texto {
     width: 33vw;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     margin-top: -1vw;
 }
 
 .imagem-confianca {
-    width: 41vw;
+    width: 40vw;
     height: auto;
-    margin-bottom: 3vw;
+    margin-bottom: 1.7vw;
 }
 
 .botao {

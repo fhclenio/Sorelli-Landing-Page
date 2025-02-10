@@ -8,13 +8,14 @@ app-avaliacoes {
 }
 
 app-autorais {
+  display: block;
   margin-top: 11vw;
 }
 
 app-metricas {
   display: block;
-  padding-top: 6vw;
-  padding-bottom: 9vw;
+  padding-top: 8vw;
+  padding-bottom: 11vw;
   background: white;
 }
 
@@ -25,10 +26,10 @@ app-campeas {
 
 app-pontos {
   display: block;
-  padding-bottom: 12vw;
-  padding-top: 12vw;
-  margin-bottom: 10vw;
-  margin-top: 10vw;
+    padding-bottom: 8vw;
+    padding-top: 7.5vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
 }
 
 .margem-final {
@@ -41,4 +42,51 @@ app-pontos {
     padding-top: 11vw;
     padding-bottom: 11vw;
   }
+}
+
+.guide480 {
+  width: 480px;
+  height: 100vh; 
+  background-color: rgba(0, 0, 255, 0.1); 
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
+}
+.guide624 {
+  width: 624px;
+  height: 100vh; 
+  background-color: rgba(0, 132, 255, 0.1); 
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
+}
+
+.guide768 {
+  width: 768px;
+  height: 100vh; 
+  background-color: rgba(9, 255, 0, 0.1); 
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
+}
+
+.guide1024 {
+  width: 1024px;
+  height: 100vh; 
+  background-color: rgba(255, 0, 0, 0.1); 
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
 }

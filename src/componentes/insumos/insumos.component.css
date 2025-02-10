@@ -11,12 +11,12 @@
     z-index: 1000;
 
     position: relative;
-    top: 9vw;
+    top: 8vw;
 }
 
 .conteudo {
-    margin-bottom: 9vw;
-    margin-top: 9vw;
+    margin-bottom: 8vw;
+    margin-top: 8vw;
     
     display: flex;
     flex-direction: column;
@@ -57,6 +57,7 @@ p {
 .botao {
     width: 10vw;
     height: 3vw;
+    margin-top: 1vw;
 }
 
 

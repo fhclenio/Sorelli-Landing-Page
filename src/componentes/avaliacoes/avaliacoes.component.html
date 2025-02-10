@@ -5,29 +5,31 @@
         <img class="imagem-estrelas" src="./images/estrelas.png">
         <p class="mulish titulo">Avaliações reais dos nossos clientes</p>
 
-        <swiper-container loop="true" slides-per-view="2">
-            @for (item of reviews; track item.id) {
-                <swiper-slide>
-                    <img class="imagem-moldura" src="./images/moldura.png">
-                    <span class="mulish texto-icone">“</span>
-                    <p class="montserrat review">{{ item.comment }}</p>
-                </swiper-slide>
-            } @empty {
-                <swiper-slide>
-                    <img class="imagem-moldura" src="./images/moldura.png">
-                    <span class="mulish texto-icone">“</span>
-                    <p class="montserrat review"></p>
-                </swiper-slide>
-                <swiper-slide>
-                    <img class="imagem-moldura" src="./images/moldura.png">
-                    <span class="mulish texto-icone">“</span>
-                    <p class="montserrat review"></p>
-                </swiper-slide>
-            }
-        </swiper-container>
-    
-        <button class="swiper-button swiper-button-prev"><img class="imagem-seta" src="./images/seta-esquerda.png"></button>
-        <button class="swiper-button swiper-button-next"><img class="imagem-seta" src="./images/seta-direita.png"></button>
+        <div class="container-swiper">
+            <swiper-container loop="true" slides-per-view="2">
+                @for (item of reviews; track item.id) {
+                    <swiper-slide>
+                        <img class="imagem-moldura" src="./images/moldura.png">
+                        <span class="mulish texto-icone">“</span>
+                        <p class="montserrat review">{{ item.comment }}</p>
+                    </swiper-slide>
+                } @empty {
+                    <swiper-slide>
+                        <img class="imagem-moldura" src="./images/moldura.png">
+                        <span class="mulish texto-icone">“</span>
+                        <p class="montserrat review"></p>
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img class="imagem-moldura" src="./images/moldura.png">
+                        <span class="mulish texto-icone">“</span>
+                        <p class="montserrat review"></p>
+                    </swiper-slide>
+                }
+            </swiper-container>
+        
+            <button class="swiper-button swiper-button-prev"><img class="imagem-seta" src="./images/seta-esquerda.png"></button>
+            <button class="swiper-button swiper-button-next"><img class="imagem-seta" src="./images/seta-direita.png"></button>
+        </div>
                 
         <button class="botao-chamada botao">Seja um #sorellover</button>
     </div>

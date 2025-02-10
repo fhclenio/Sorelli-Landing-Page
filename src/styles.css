@@ -146,10 +146,15 @@ hr {
   font-family: "Mulish", sans-serif;
   font-style: normal;
   font-optical-sizing: auto;
-  font-size: 1.3vw;
+  font-size: 1.25vw;
   border-radius: 3em;
-  border-color: #d52c29;
+  border-color: #d52c2900;
   padding: 0 0;
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 25%);
+}
+
+.botao {
+  height: 3.3vw !important;
 }
 
 .destaque {
@@ -171,6 +176,8 @@ hr {
 .texto {
   font-size: 1vw;
   font-weight: 400;
+  margin-top: -0.2vw !important; 
+  line-height: 26px !important;
 }
 
 .fundo-esmaecido {

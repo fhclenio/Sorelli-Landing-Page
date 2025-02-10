@@ -1,19 +1,12 @@
-.texto {
-    max-width: 13.6vw;
-    margin-top: 1vw;
-}
-
-.texto-menor {
-    max-width: 11vw;
-}
 
 p {
     text-align: center;
+    margin-bottom: 0 !important;
 }
 
 .coluna {
     flex: 0 0 auto;
-    width: 25%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,18 +17,30 @@ p {
 }
 
 .icone-pontos {
-    width: 7vw;
+    width: 6.3vw;
     height: auto;
+    margin-bottom: 1vw;
 }
 
 .botao {
-    width: 15vw;
-    height: 3vw;
+    width: 15.3vw;
 }
 
 .container {
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-top: 1.2vw;
+    margin-bottom: 2.2vw;
+}
+
+.retangulo-branco {
+    height: 18.2vw;
+    width: 12.4vw;
+    background: white;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (orientation: portrait) {

@@ -1,12 +1,11 @@
 .imagem-pizzas {
-    width: 41vw;
+    width: 40vw;
     height: auto;
     margin-bottom: -12vw;
 }
 
 .botao {
-    width: 17vw;
-    height: 3vw;
+    width: 17.1vw;
     position: relative;
 }
 
@@ -16,8 +15,7 @@
 
 .texto {
     width: 34vw;
-    margin-bottom: 3vw;
-    margin-top: -1vw;
+    margin-bottom: 2vw;
 }
 
 p {

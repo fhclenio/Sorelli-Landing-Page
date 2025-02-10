@@ -10,16 +10,16 @@
 
 .conteudo {
   margin-top: 16vw;
-  margin-bottom: 10vw;
+  margin-bottom: 7.9vw;
 }
 
 .imagem-estrelas {
-  width: 12vw;
+  width: 11vw;
   height: auto;
 }
 
 .imagem-moldura {
-  width: 19vw;
+  width: 16vw;
   height: auto;
   margin-bottom: 3vw;
   top: 2vw;
@@ -32,39 +32,46 @@ p {
 
 p.titulo {
   color: white;
-  margin-top: 1vw;
-  margin-bottom: 4vw;
+  margin-top: 0.8vw;
+  margin-bottom: 0.8vw;
 }
 
 .botao {
   background-color: #ffffff;
   color: #000000;
-  border-color: #ffffff;
-  width: 16vw;
-  height: 3vw;
-  margin-top: 3vw;
+  width: 15vw;
+  margin-top: 1.2vw;
 }
 
 swiper-container {
-  width: 45vw;
+  width: 35vw;
 }
 
 .texto-icone {
   color: white;
-  font-size: 6.8vw;
+  font-size: 6.5vw;
+  font-weight: 800;
   position: absolute;
   top: -2vw;
-  left: 8vw;
+  left: 6.5vw;
 }
 
 .review {
   position: absolute;
-  top: 4vw;
-  height: 18vw;
-  overflow: auto;
-  word-wrap: break-word;
-  width: 19vw;
-  font-size: 1vw;
+    top: 5.1vw;
+    height: 13.5vw;
+    word-wrap: break-word;
+    width: 16vw;
+    font-size: 1vw;
+    padding: 0 1vw 0 1vw;
+    line-height: 1.5vw;
+    overflow: hidden;
+}
+
+.container-swiper {
+  position: relative;
+  left: 0.8vw;
+  margin-top: -0.5vw;
 }
 
 p {
@@ -81,14 +88,14 @@ p {
 
 .swiper-button-next {
   position: absolute;
-  right: -1.5vw;
-  top: 22vw;
+  right: -2.5vw;
+  top: 10.5vw;
 }
 
 .swiper-button-prev {
   position: absolute;
-  left: -5vw;
-  top: 22vw;
+  left: -4vw;
+  top: 10.5vw;
 }
 
 .container {
