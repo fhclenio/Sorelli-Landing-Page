@@ -15,8 +15,8 @@
 }
 
 .conteudo {
-    margin-bottom: 8vw;
-    margin-top: 8vw;
+    margin-bottom: 7vw;
+    margin-top: 7vw;
     
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
 
 .coluna {
     flex: 0 0 auto;
-    width: 14vw;
+    width: 13vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,13 +36,8 @@
     justify-content: center;
 }
 
-.icone-1 {
-    width: 7vw;
-    height: auto;
-}
-
-.icone-2 {
-    width: 5.99vw;
+.icone {
+    width: 16.5vw;
     height: auto;
 }
 
@@ -58,6 +53,14 @@ p {
     width: 10vw;
     height: 3vw;
     margin-top: 1vw;
+}
+
+.div-icones {
+    width: 12vw;
+    height: 16vw;
+    position: absolute;
+    border-radius: 10px;
+    z-index: -1;
 }
 
 

@@ -19,7 +19,7 @@ p {
 .icone-pontos {
     width: 6.3vw;
     height: auto;
-    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
 
 .botao {
@@ -41,6 +41,11 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.coluna-retangulo{
+    height: 50%;
+    width: auto;
 }
 
 @media only screen and (orientation: portrait) {
