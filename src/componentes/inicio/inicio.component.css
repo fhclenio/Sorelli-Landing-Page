@@ -2,7 +2,7 @@
     width: 16vw;
     height: auto;
     position: relative;
-    top: 4.8vw;
+    top: 4.6vw;
     left: 62.8vw;
 }
 
@@ -25,14 +25,32 @@
     filter:brightness(20%);
 }
 
+.mobile {
+    display: none;
+}
 
 @media only screen and (orientation: portrait) {
-    
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
     .a-melhor{
         width: 33vw;
         height: 20vw;
-        top: 6vw;
-        left: 14vw;
+        top: 16vw;
+        left: 8vw;
     }
    
+    .imagem-logo {
+        width: 26.6vw;
+        height: auto;
+        position: relative;
+        top: 29.5vw;
+        left: 57.8vw;
+    }
+    
 }

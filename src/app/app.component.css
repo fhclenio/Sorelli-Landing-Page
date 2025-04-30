@@ -34,7 +34,7 @@ app-pontos {
 
 .margem-final {
   display: block;
-  margin-bottom: 22vw;
+  margin-bottom: 10vw;
 }
 
 @media only screen and (orientation: portrait) {
@@ -42,12 +42,44 @@ app-pontos {
     padding-top: 11vw;
     padding-bottom: 11vw;
   }
+
+  app-pontos {
+      margin-top: 15vw;
+      padding-top: 14vw;
+  }
+
+  app-autorais {
+    margin-top: 20.5vw;
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .guide480 {
   width: 480px;
   height: 100vh; 
-  background-color: rgba(0, 0, 255, 0.1); 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
   position: fixed;
   top: 0;
   left: 50%;
@@ -58,7 +90,9 @@ app-pontos {
 .guide624 {
   width: 624px;
   height: 100vh; 
-  background-color: rgba(0, 132, 255, 0.1); 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
   position: fixed;
   top: 0;
   left: 50%;
@@ -70,7 +104,9 @@ app-pontos {
 .guide768 {
   width: 768px;
   height: 100vh; 
-  background-color: rgba(9, 255, 0, 0.1); 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
   position: fixed;
   top: 0;
   left: 50%;
@@ -82,11 +118,103 @@ app-pontos {
 .guide1024 {
   width: 1024px;
   height: 100vh; 
-  background-color: rgba(255, 0, 0, 0.1); 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
   position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 9999; 
   pointer-events: none; 
+}
+
+@media only screen and (orientation: portrait) {
+  
+  .guide480 {
+    display: none;
+  }
+
+  .guide624 {
+    display: none;
+  }
+
+  .guide768 {
+    display: none;
+  }
+
+  .guide1024 {
+    display: none;
+  }
+
+  .guide-mobile-1 {
+    width: 160px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+  .guide-mobile-2 {
+    width: 226px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+  .guide-mobile-3 {
+    width: 298px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+  .guide-mobile-4 {
+    width: 336px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+  .guide-mobile-5 {
+    width: 372px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
 }

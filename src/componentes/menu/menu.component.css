@@ -110,11 +110,11 @@
 
     .menu-icon {
       display: block;
-      color: white;
-      font-size: 4.4vw;
-      position: absolute;
-      top: 0;
-      right: 2vw;
+        color: white;
+        font-size: 7.4vw;
+        position: absolute;
+        top: 5vw;
+        right: 7vw;
     }
 
     .menu-icon-close {
