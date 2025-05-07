@@ -6,7 +6,7 @@ p {
 
 .coluna {
     flex: 0 0 auto;
-    width: 20%;
+    width: 13.8vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,11 @@ p {
 .icone-pontos {
     width: 6.3vw;
     height: auto;
-    margin-top: 1vw;
+    margin-top: 2.5vw;
+}
+
+.texto{
+    margin-top: 0vw !important;
 }
 
 .botao {

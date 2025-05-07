@@ -4,7 +4,11 @@
 
 .icone {
   height: auto;
-  width: 3vw;
+  width: 2.1vw;
+}
+
+.icone-1 {
+  margin-right: 0.8vw;
 }
 
 * {
@@ -24,6 +28,11 @@ a {
 .imagem-gplay {
   height: auto;
   width: 11vw;
+  margin-top: 3vw;
+}
+
+.div-icones {
+  margin-top: 0.3vw;
 }
 
 .container {

@@ -60,4 +60,10 @@ p {
     .coluna {
         width: 21vw;
     }
+    
+    .fundo-pizzas{
+        width: 93vw;
+        height: 33.8vw;
+        top: -12.3vw;
+    }
 }
