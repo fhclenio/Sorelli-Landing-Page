@@ -27,18 +27,20 @@ p {
 @media only screen and (orientation: portrait) {
     .texto {
         width: 87vw;
-        margin-bottom: 4vw;
-        margin-top: -1vw;
+        margin-bottom: 5.2vw;
     }
     
     .imagem-confianca {
-        width: 86vw;
-        margin-bottom: 4vw;
+        width: 93vw;
+        margin-bottom: 5.7vw;
     }
     
     .botao {
-        width: 38vw;
-        height: 8vw;
+        width: 33vw;
+    }
+
+    .titulo {
+        margin-bottom: 1vw;
     }
     
 }

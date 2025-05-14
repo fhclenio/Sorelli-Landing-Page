@@ -74,31 +74,36 @@ p {
     }
     
     .botao {
-        width: 27vw;
-        height: 7vw;
+        width: 26vw;
+    }
+
+    .div-icones {
+        width: 35.7vw;
+        height: 52vw;
+        border-radius: 2vw;
+        top: 17.5vw;
     }
 
     .retangulo {
-        width: 80vw; 
+        width: 93vw; 
+        top: 15vw;
     }
 
     br {
         display: none;
     }
 
-    .icone-1 {
-        width: 15vw;
+    .icone {
+        width: 54.5vw;
     }
-    
-    .icone-2 {
-        width: 12.8vw;
-    }
+
     .coluna {
-        width: 34vw;
+        width: 38.4vw;
     }
 
     .conteudo {
         margin-bottom: 16vw;
         margin-top: 16vw;
     }
+
 }

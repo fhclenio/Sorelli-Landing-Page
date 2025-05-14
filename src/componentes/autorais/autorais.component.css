@@ -25,8 +25,8 @@ p {
 
 @media only screen and (orientation: portrait) {
     .imagem-pizzas {
-        width: 93vw;
-        margin-bottom: -28vw;
+        width: 94vw;
+        margin-bottom: -28.5vw;
     }
 
     .titulo-autorais{
@@ -43,7 +43,7 @@ p {
     }
     
     .botao {
-        width: 42vw;
+        width: 42.5vw;
     }
 
     .titulo {

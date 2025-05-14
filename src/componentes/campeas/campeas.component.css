@@ -46,24 +46,32 @@ p {
 
 @media only screen and (orientation: portrait) {
     .botao {
-        width: 26vw;
-        height: 7vw;
+        width: 24.5vw;
     }
 
     .texto {
         font-size: 2.6vw;
+        margin-top: -0.5vw !important;
+    }
+
+    .titulo {
+        margin-bottom: -0.5vw;
     }
 
     .icone {
-        width: 22vw;
+        width: 28vw;
     }
     .coluna {
-        width: 21vw;
+        width: 22.3vw;
     }
     
     .fundo-pizzas{
         width: 93vw;
-        height: 33.8vw;
+        height: 31.8vw;
         top: -12.3vw;
+    }
+
+    .container {
+        margin-bottom: 1vw;
     }
 }

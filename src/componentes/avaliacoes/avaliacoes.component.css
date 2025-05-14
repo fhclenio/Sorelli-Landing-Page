@@ -58,14 +58,16 @@ swiper-container {
 
 .review {
   position: absolute;
-    top: 5.1vw;
-    height: 13.5vw;
-    word-wrap: break-word;
-    width: 16vw;
-    font-size: 1vw;
-    padding: 0 1vw 0 1vw;
-    line-height: 1.5vw;
-    overflow: hidden;
+  top: 2.1vw;
+  height: 22.2vw;
+  word-wrap: break-word;
+  width: 16vw;
+  font-size: 1vw;
+  padding: 0 1vw 0 1vw;
+  line-height: 1.5vw;
+  overflow: hidden;
+  margin-bottom: 0;
+  align-content: center;
 }
 
 .container-swiper {
@@ -89,13 +91,13 @@ p {
 .swiper-button-next {
   position: absolute;
   right: -2.5vw;
-  top: 10.5vw;
+  top: 12.5vw;
 }
 
 .swiper-button-prev {
   position: absolute;
   left: -4vw;
-  top: 10.5vw;
+  top: 12.5vw;
 }
 
 .container {
@@ -104,8 +106,7 @@ p {
 
 @media only screen and (orientation: portrait) {
   .botao {
-    width: 41vw;
-    height: 7vw;
+    width: 37vw;
   }
 
   .conteudo {

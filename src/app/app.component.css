@@ -49,6 +49,10 @@ app-pontos {
     margin-bottom: 15vw;
     padding-bottom: 15vw;
   }
+  
+  app-campeas {
+    margin-bottom: 15vw;
+  }
 
   app-autorais {
     margin-top: 20.5vw;
