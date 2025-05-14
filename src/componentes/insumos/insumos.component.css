@@ -41,8 +41,10 @@
 }
 
 .icone {
-    width: 16.5vw;
+    width: 18.5vw;
     height: auto;
+    position: relative;
+    top: -1.1vw;
 }
 
 p {
