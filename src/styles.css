@@ -181,7 +181,7 @@ hr {
 }
 
 .fundo-esmaecido {
-  background:  #f9f9f9; 
+  background:  #f9f9f9; /* #ff9b9b; */
 }
 
 @media only screen and (orientation: portrait) {

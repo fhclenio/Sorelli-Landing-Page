@@ -10,7 +10,7 @@
         <ul>
             @for (item of itensMenu; track $index) {
                 <li>
-                    <a href="#" class="botao-{{$index+1}}">
+                    <a href="{{ item == 'Contato' ? '#trailer' : '#' }}" class="botao-{{$index+1}}" (click)="mudarPagina(item)">
                         {{item}}
                     </a>
                 </li>

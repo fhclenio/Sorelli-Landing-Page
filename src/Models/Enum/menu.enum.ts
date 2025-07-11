@@ -1,7 +1,7 @@
 export enum Menu {
+    Home = 'Home',
     Cardapio = 'Cardápio',
     Promocoes = 'Promoções',
     TaxasDeEntrega = 'Taxas de Entrega',
-    Contato = 'Contato',
-    Perfil = 'Perfil'
+    Contato = 'Contato'
 }

@@ -1,0 +1,229 @@
+app-trailer {
+  position: relative;
+  bottom: 0;
+}
+
+app-avaliacoes {
+  position: relative;
+}
+
+app-autorais {
+  display: block;
+  margin-top: 11vw;
+}
+
+app-metricas {
+  display: block;
+  padding-top: 8vw;
+  padding-bottom: 11vw;
+  background: white;
+}
+
+app-campeas {
+  display: block;
+  margin-bottom: 8vw;
+}
+
+app-pontos {
+  display: block;
+  padding-bottom: 8vw;
+  padding-top: 7.5vw;
+  margin-bottom: 8vw;
+  margin-top: 8vw;
+}
+
+app-confianca {
+  display: block;
+  margin-bottom: 10vw;
+}
+
+@media only screen and (orientation: portrait) {
+  app-metricas {
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+  }
+
+  app-pontos {
+    margin-top: 15vw;
+    padding-top: 12.5vw;
+    margin-bottom: 15vw;
+    padding-bottom: 15vw;
+  }
+  
+  app-campeas {
+    margin-bottom: 15vw;
+  }
+
+  app-autorais {
+    margin-top: 20.5vw;
+  }
+
+  app-confianca {
+    margin-bottom: 23.2vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.guide480 {
+  width: 480px;
+  height: 100vh; 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
+}
+.guide624 {
+  width: 624px;
+  height: 100vh; 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
+}
+
+.guide768 {
+  width: 768px;
+  height: 100vh; 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
+}
+
+.guide1024 {
+  width: 1024px;
+  height: 100vh; 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
+}
+
+@media only screen and (orientation: portrait) {
+  
+  .guide480 {
+    display: none;
+  }
+
+  .guide624 {
+    display: none;
+  }
+
+  .guide768 {
+    display: none;
+  }
+
+  .guide1024 {
+    display: none;
+  }
+
+  .guide-mobile-1 {
+    width: 160px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+  .guide-mobile-2 {
+    width: 226px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+  .guide-mobile-3 {
+    width: 298px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+  .guide-mobile-4 {
+    width: 336px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+  .guide-mobile-5 {
+    width: 372px;
+    height: 100vh; 
+    border-style: dotted;
+    border-width: thin;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999; 
+    pointer-events: none; 
+  }
+
+}

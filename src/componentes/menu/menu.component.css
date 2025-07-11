@@ -47,20 +47,21 @@
 }
 
 .botao-1 {
-  width: 8vw;
-}
-.botao-2 {
-  width: 9vw;
-}
-.botao-3 {
-  width: 12vw;
-}
-.botao-4 {
-  width: 7vw;
-}
-.botao-5 {
   width: 6vw;
 }
+.botao-2 {
+  width: 8vw;
+}
+.botao-3 {
+  width: 9vw;
+}
+.botao-4 {
+  width: 12vw;
+}
+.botao-5 {
+  width: 7vw;
+}
+
 
 @media only screen and (orientation: portrait) {
     * {

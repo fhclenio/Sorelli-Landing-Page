@@ -1,16 +1,14 @@
 <app-menu class="montserrat"></app-menu>
-<app-inicio></app-inicio>
 
-<app-autorais></app-autorais>
-<app-pontos class="fundo-esmaecido"></app-pontos>
-<app-confianca></app-confianca>
-<app-campeas></app-campeas>
-<app-insumos></app-insumos>
-<app-avaliacoes></app-avaliacoes>
-<app-metricas></app-metricas>
-
+@switch (this.paginasService.paginaAtual) {
+    @case (Paginas.Home) {
+        <app-home></app-home>
+    }   
+    @case (Paginas.TaxasDeEntrega) {
+        <app-taxas-de-entrega></app-taxas-de-entrega>
+    }     
+}
 <app-trailer></app-trailer>
-
 
 <div class="guide480"></div>
 <div class="guide624"></div>
