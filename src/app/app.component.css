@@ -32,15 +32,15 @@ app-pontos {
   margin-top: 8vw;
 }
 
-.margem-final {
+app-confianca {
   display: block;
   margin-bottom: 10vw;
 }
 
 @media only screen and (orientation: portrait) {
   app-metricas {
-    padding-top: 11vw;
-    padding-bottom: 11vw;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
   }
 
   app-pontos {
@@ -58,8 +58,8 @@ app-pontos {
     margin-top: 20.5vw;
   }
 
-  .margem-final {
-    margin-bottom: 27.2vw;
+  app-confianca {
+    margin-bottom: 23.2vw;
   }
 }
 

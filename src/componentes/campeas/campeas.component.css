@@ -44,6 +44,12 @@ p {
 }
 
 
+@media only screen and (orientation: landscape) {
+    .titulo {
+        margin-bottom: 0;
+    }
+}
+
 @media only screen and (orientation: portrait) {
     .botao {
         width: 24.5vw;
@@ -67,8 +73,8 @@ p {
     
     .fundo-pizzas{
         width: 93vw;
-        height: 31.8vw;
-        top: -12.3vw;
+        height: 27.8vw;
+        top: -8.3vw;
     }
 
     .container {

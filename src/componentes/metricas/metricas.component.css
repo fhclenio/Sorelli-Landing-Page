@@ -64,8 +64,8 @@ p {
 
 @media only screen and (orientation: portrait) {
   .quadrado {
-    width: 26vw;
-    height: 26vw;
+    width: 30vw;
+    height: 30vw;
   }
 
   .quadrado-1 {
@@ -81,15 +81,21 @@ p {
   }
 
   .coluna {
-    width: 27vw;
+    width: 31.2vw;
   }
 
   .texto-grande {
     font-size: 5.7vw;
+    line-height: 8vw;
   }
 
   .texto-pequeno {
     font-size: 3.1vw;
     width: 21vw;
+    line-height: 3.8vw;
+  }
+
+  .container {
+    margin-bottom: 6.4vw;
   }
 }

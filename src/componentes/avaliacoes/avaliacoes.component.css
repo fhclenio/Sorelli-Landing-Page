@@ -1,6 +1,6 @@
 .imagem-fundo {
   position: absolute;
-  top: -15vw;
+  top: 0vw;
   left: 0;
   width: 100%;
   height: auto;
@@ -104,13 +104,47 @@ p {
   margin-bottom: 2vw;
 }
 
+.mobile {
+  display: none;
+}
+
+
 @media only screen and (orientation: portrait) {
+
+  .desktop {
+    display: none;
+  }
+
+  p.titulo {
+    margin-top: 2vw;
+    margin-bottom: 3.5vw;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .fundo-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 133vw;
+    z-index: -1;
+    filter: brightness(20%);
+    background-image: url("../../../public/images/bg-avaliacoes-2.png");
+    background-size: cover;
+    background-position: center;
+  }
+
   .botao {
     width: 37vw;
+    margin-top: 5.4vw;
+    margin-bottom: 7vw;
   }
 
   .conteudo {
-    margin-top: 23vw;
+    margin-top: 30vw;
     margin-bottom: 8vw;
   }
 
@@ -119,34 +153,35 @@ p {
   }
 
   .imagem-moldura {
-    width: 32vw;
+    width: 40vw;
   }
 
   swiper-container {
-    width: 70vw;
+    width: 82vw;
   }
 
   .review {
-    top: 6vw;
-    height: 30vw;
-    width: 32vw;
-    font-size: 3vw;
+    top: 2vw;
+    height: 55.8vw;
+    width: 39.5vw;
+    font-size: 2.8vw;
+    line-height: 3.5vw;
   }
 
   .texto-icone {
-    font-size: 14.1vw;
-    top: -5vw;
-    left: 13.5vw;
+    font-size: 16.1vw;
+    top: -6.6vw;
+    left: 16.4vw;
   }
 
   .swiper-button-next {
-    right: -5.5vw;
-    top: 34vw;
+    right: -7.5vw;
+    top: 26vw;
   }
 
   .swiper-button-prev {
-    left: -8vw;
-    top: 34vw;
+    left: -8.7vw;
+    top: 26vw;
   }
 
   .imagem-seta {
@@ -155,6 +190,11 @@ p {
   }
 
   .imagem-fundo {
-    top: -10vw;
+    top: 0vw;
+  }
+
+  .container-swiper {
+    left: 0.6vw;
+    margin-top: -0.5vw;
   }
 }

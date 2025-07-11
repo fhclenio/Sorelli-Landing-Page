@@ -25,7 +25,7 @@
 }
 
 .container {
-    margin-bottom: 1.2vw;
+    margin-bottom: -0.8vw;
 }
 
 .coluna {
@@ -72,23 +72,28 @@ p {
 
 @media only screen and (orientation: portrait) {
     .texto {
-        width: 68vw;
+        width: 84vw;
+    }
+
+    .titulo {
+        margin-bottom: 0.6vw;
     }
     
     .botao {
         width: 26vw;
+        margin-top: 1.2vw;
     }
 
     .div-icones {
         width: 35.7vw;
-        height: 52vw;
+        height: 51vw;
         border-radius: 2vw;
-        top: 17.5vw;
+        top: 14.5vw;
     }
 
     .retangulo {
         width: 93vw; 
-        top: 15vw;
+        top: 15.1vw;
     }
 
     br {
@@ -97,15 +102,20 @@ p {
 
     .icone {
         width: 54.5vw;
+        top: 0;
     }
 
     .coluna {
         width: 38.4vw;
     }
 
+    .container {
+        margin-bottom: 3.8vw
+    }
+
     .conteudo {
-        margin-bottom: 16vw;
-        margin-top: 16vw;
+        margin-bottom: 15vw;
+        margin-top: 13vw;
     }
 
 }

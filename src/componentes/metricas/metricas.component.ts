@@ -10,8 +10,7 @@ import { Component } from '@angular/core';
 export class MetricasComponent {
     
     anos = 0;
-
-    ngAfterViewInit() {
+    ngOnInit() {
         const dataFundacao = new Date(2017, 10, 12);
         const dataAtual = new Date();
 
@@ -26,4 +25,5 @@ export class MetricasComponent {
 
         this.anos = diferencaAnos;
     }
+
 }
