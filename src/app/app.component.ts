@@ -6,6 +6,7 @@ import { TrailerComponent } from '../componentes/trailer/trailer.component';
 import { Paginaservice } from '../Services/paginas.service';
 import { HomeComponent } from "./home/home.component";
 import { TaxasDeEntregaComponent } from "./taxas-de-entrega/taxas-de-entrega.component";
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ export class AppComponent {
   title = 'Pizza Sorelli';
   Paginas = Paginas;
   paginasService: Paginaservice;
+  isDebug = environment.debugMode;
 
   constructor(paginasService: Paginaservice){
     this.paginasService = paginasService;
