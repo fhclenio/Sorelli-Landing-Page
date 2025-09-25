@@ -9,5 +9,5 @@ import { AMelhorComponent } from "../amelhor/amelhor.component";
   styleUrl: './inicio.component.css'
 })
 export class InicioComponent {
-
+  
 }

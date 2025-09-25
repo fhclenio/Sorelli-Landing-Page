@@ -42,6 +42,20 @@
   pointer-events: none; 
 }
 
+.guide896 {
+  width: 896px;
+  height: 100vh; 
+  border-style: dotted;
+    border-width: thin;
+    border-color: black;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; 
+  pointer-events: none; 
+}
+
 .guide1024 {
   width: 1024px;
   height: 100vh; 
@@ -67,6 +81,10 @@
   }
 
   .guide768 {
+    display: none;
+  }
+
+  .guide896 {
     display: none;
   }
 

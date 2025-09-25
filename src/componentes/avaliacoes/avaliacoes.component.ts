@@ -1,4 +1,5 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { HrefService } from '../../Services/href.service';
 
 @Component({
   selector: 'app-avaliacoes',
@@ -72,5 +73,13 @@ export class AvaliacoesComponent {
       });
     }
   }
+  href: string = '';
 
+  abrirEmNovaAba() { window.open(this.href, '_blank'); }
+  
+  constructor(private hrefService: HrefService) {
+    this.hrefService.href$.subscribe(novo => {
+      this.href = novo;
+    });
+  }
 }

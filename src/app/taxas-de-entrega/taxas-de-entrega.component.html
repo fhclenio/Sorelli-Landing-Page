@@ -1,21 +1,23 @@
-<div class="tabela-container">
-  <div class="tabela-header">
-    <h2>Taxas de entrega</h2>
-  </div>
-  <table>
-    <thead>
-      <tr>
-        <th>Bairro</th>
-        <th>Valor</th>
-      </tr>
-    </thead>
-    <tbody>
-      @for (taxa of taxas; track $index) {
+<div class="fundo">
+  <div class="tabela-container">
+    <table>
+      <thead>
         <tr>
-            <td>{{ taxa.bairro }}</td>
-            <td>{{ taxa.valor }}</td>
+          <th colspan="2" class="tabela-header titulo">Taxas de entrega</th>
         </tr>
-    }
-    </tbody>
-  </table>
+        <tr>
+          <th class="bairro titulo">Bairro</th>
+          <th class="valor titulo">Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (taxa of taxas; track $index) {
+          <tr>
+              <td class="bairro texto">{{ taxa.bairro }}</td>
+              <td class="valor texto">{{ taxa.valor }}</td>
+          </tr>
+      }
+      </tbody>
+    </table>
+  </div>
 </div>

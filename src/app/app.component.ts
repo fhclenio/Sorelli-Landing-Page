@@ -3,10 +3,11 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MenuComponent } from '../componentes/menu/menu.component';
 import { TrailerComponent } from '../componentes/trailer/trailer.component';
-import { Paginaservice } from '../Services/paginas.service';
+import { PaginasService } from '../Services/paginas.service';
 import { HomeComponent } from "./home/home.component";
 import { TaxasDeEntregaComponent } from "./taxas-de-entrega/taxas-de-entrega.component";
 import { environment } from '../environments/environment';
+import { HrefService } from '../Services/href.service';
 
 @Component({
   selector: 'app-root',
@@ -18,10 +19,15 @@ import { environment } from '../environments/environment';
 export class AppComponent {
   title = 'Pizza Sorelli';
   Paginas = Paginas;
-  paginasService: Paginaservice;
+  paginasService: PaginasService;
   isDebug = environment.debugMode;
 
-  constructor(paginasService: Paginaservice){
+  constructor(paginasService: PaginasService, private hrefService: HrefService){
     this.paginasService = paginasService;
   }
+  
+  ngOnInit(){
+    this.hrefService.setHref('https://pizzasorelli.com.br/cardapio?exibir=&idLojaSelecionada=853');
+  }
+
 }

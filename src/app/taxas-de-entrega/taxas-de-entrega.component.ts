@@ -23,6 +23,15 @@ export class TaxasDeEntregaComponent {
     { bairro: 'Condomínios (Bom Viver)', valor: 'R$ 9,00' },
     { bairro: 'Estrada antiga Bela Flor', valor: 'R$ 10,00' },
     { bairro: 'Fleming', valor: 'R$ 9,00' },
-    { bairro: 'Gravito', valor: 'R$ 8,00' }
+    { bairro: 'Gravito', valor: 'R$ 8,00' },
+    { bairro: 'Ladeira de Pedra', valor: 'R$ 7,00' },
+    { bairro: 'Ladeira do Gogó', valor: 'R$ 7,00' },
+    { bairro: 'Pioneiro', valor: 'R$ 8,00' },
+    { bairro: 'Planalto 1', valor: 'R$ 8,00' },
+    { bairro: 'Planalto 2', valor: 'R$ 8,00' },
+    { bairro: 'Rua Nova', valor: 'R$ 5,00' },
+    { bairro: 'Santa Rita', valor: 'R$ 7,00' },
+    { bairro: 'Santo André', valor: 'R$ 9,00' },
+    { bairro: 'Urbis', valor: 'R$ 8,00' }
   ];
 }

@@ -5,14 +5,11 @@ import { Paginas } from '../Models/Enum/paginas.enum';
 @Injectable({
   providedIn: 'root',
 })
-export class Paginaservice {
+export class PaginasService {
     paginaAtual = Paginas.Home;
 
     mudarPagina(pagina: string) {
         switch (pagina) {
-            case "Cardápio":
-                this.paginaAtual =  Paginas.Cardapio;
-                break;
             case "Promoções":
                 this.paginaAtual =  Paginas.Promocoes;
                 break;

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Menu } from '../../Models/Enum/menu.enum';
-import { Paginaservice } from '../../Services/paginas.service';
+import { PaginasService } from '../../Services/paginas.service';
 
 @Component({
   selector: 'app-menu',
@@ -11,7 +11,7 @@ import { Paginaservice } from '../../Services/paginas.service';
 })
 export class MenuComponent {
   public itensMenu: Menu[] = Object.values(Menu);
-  paginasService: Paginaservice;
+  paginasService: PaginasService;
 
   menuValue:boolean = false;
 
@@ -19,13 +19,24 @@ export class MenuComponent {
     this.menuValue =! this.menuValue ;
   }
 
-  constructor(paginasService: Paginaservice){
+  constructor(paginasService: PaginasService){
     this.paginasService = paginasService;
   }
 
   mudarPagina(item: string){
-    if(item == "Contato") return;
+    this.toggleMenu();
     this.paginasService.mudarPagina(item);
+  }
+
+  obterLink(item: string){
+    switch (item) {
+      case 'Contato':
+        return 'https://wa.me/5571999450506';
+      case 'Cardápio':
+        return 'https://pizzasorelli.com.br/cardapio?exibir=&idLojaSelecionada=853';
+      default: 
+        return "#";
+    }
   }
 }
 
