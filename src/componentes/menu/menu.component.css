@@ -96,20 +96,22 @@
     }
 
     .app-navbar a{
-      width: 32vw;
+      width: 66vw;
+      text-align: right;
+      padding-right: 8vw;
     }
 
     .app-navbar ul {
       text-align: left;
       margin: 0;
-       padding: 80px 0 10px 0px; 
+      padding: 33vw 0 10px 0px; 
       font-size: 16px;
       font-weight: 700;
     }
 
     .app-navbar li {
         display: flex;
-        padding-top: 10px;
+        padding-top: 11vw;
         justify-content: flex-end;
         padding-left: 10px;
     }
@@ -126,7 +128,7 @@
     .menu-icon-close {
         display: block;
         color: black;
-        font-size: 4.4vw;
+        font-size: 7.4vw;
         position: absolute;
         top: 0;
         left: 2vw;
@@ -136,6 +138,6 @@
       right: 0;
       transition: 0.4s ease-in-out;
       z-index: 10000;
-      max-width: 32vw;
+      max-width: 66vw;
     }
   }

@@ -8,11 +8,12 @@ import { HomeComponent } from "./home/home.component";
 import { TaxasDeEntregaComponent } from "./taxas-de-entrega/taxas-de-entrega.component";
 import { environment } from '../environments/environment';
 import { HrefService } from '../Services/href.service';
+import { PromocoesComponent } from "./promocoes/promocoes.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MenuComponent, TrailerComponent, HomeComponent, TaxasDeEntregaComponent],
+  imports: [RouterOutlet, MenuComponent, TrailerComponent, HomeComponent, TaxasDeEntregaComponent, PromocoesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

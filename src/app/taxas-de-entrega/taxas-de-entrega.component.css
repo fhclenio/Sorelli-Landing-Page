@@ -1,5 +1,5 @@
 .tabela-container {
-  max-width: 55vw;
+  max-width: 53.2vw;
   margin-left: auto;
   margin-right: auto;
   font-family: "Mulish", sans-serif;
@@ -26,6 +26,7 @@ table {
   overflow: hidden;
 }
 
+
 th {
   background-color: #ffffff;
   padding: 12px;
@@ -48,17 +49,33 @@ tr:last-child td {
 .bairro {
   width: 70%; 
   text-align: left; 
-  padding-left: 7.1vw;
+  padding-left: 6.7vw;
   background-color: #ffffff;
 }
 
 .valor {
   width: 30%; 
   text-align: right; 
-  padding-right: 7.1vw;
+  padding-right: 6.7vw;
   background-color: #ffffff;
 }
 
 .fundo {
   background-color: #f5f5f5;
+}
+
+@media only screen and (orientation: portrait) {
+  .tabela-container {
+    max-width: 90vw;  
+    padding-top: 4vw;
+    padding-bottom: 11vw;
+  }
+
+  th {
+    padding-top: 3.6vw;
+  }
+
+  tr:last-child td {
+    padding-bottom: 4.5vw;
+  }
 }
