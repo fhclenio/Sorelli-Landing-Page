@@ -28,7 +28,7 @@ export class AppComponent {
   }
   
   ngOnInit(){
-    this.hrefService.setHref('https://pizzasorelli.com.br/cardapio?exibir=&idLojaSelecionada=853');
+    this.hrefService.setHref('https://cardapio.pizzasorelli.com.br/cardapio?exibir=&idLojaSelecionada=853');
   }
 
 }

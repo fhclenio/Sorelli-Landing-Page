@@ -13,7 +13,7 @@ export class MetricasComponent {
   href: string = '';
   anos = 0;
   ngOnInit() {
-      const dataFundacao = new Date(2017, 10, 12);
+      const dataFundacao = new Date('2017-10-12T00:00:00');
       const dataAtual = new Date();
 
       let diferencaAnos = dataAtual.getFullYear() - dataFundacao.getFullYear();

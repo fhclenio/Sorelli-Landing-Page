@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DatasComemorativasService } from '../../Services/datas-comemorativas.service';
 
 @Component({
   selector: 'app-trailer',
@@ -8,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './trailer.component.css'
 })
 export class TrailerComponent {
-
+  datas: DatasComemorativasService;
+  
+  constructor(datas: DatasComemorativasService) { 
+    this.datas = datas;
+  }
 }

@@ -1,9 +1,25 @@
-.imagem-logo {
+.imagem-logo-antigo {
     width: 16vw;
     height: auto;
-    position: relative;
-    top: 4.6vw;
+}
+
+.div-logo-antigo {
+    position: absolute;
+    top: 24.6vw;
     left: 62.8vw;
+}
+
+.imagem-logo-novo {
+    width: 21vw;
+    height: auto;
+    position: relative;
+    z-index: 1000;
+}
+
+.div-logo-novo {
+    position: relative;
+    top: -4.9vw;
+    left: 61.8vw;
 }
 
 .a-melhor{
@@ -45,12 +61,25 @@
         left: 8vw;
     }
    
-    .imagem-logo {
+    .imagem-logo-antigo {
         width: 26.6vw;
         height: auto;
+    }
+    
+    .div-logo-antigo {
         position: relative;
         top: 29.5vw;
         left: 57.8vw;
     }
+
+    .imagem-logo-novo {
+        width: 34.6vw;
+        height: auto;
+    }
     
+    .div-logo-novo {
+        position: relative;
+        top: 13.8vw;
+        left: 56.3vw;
+    }
 }

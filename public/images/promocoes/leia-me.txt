@@ -1,0 +1,4 @@
+Imagem deve:
+- Estar em proporção 3:1
+- Estar com o nome "banner-promocao-numero.png", onde "numero" deve ser substituído com um numero de 1 a 10
+- A tela apresentará no máximo 10 imagens
