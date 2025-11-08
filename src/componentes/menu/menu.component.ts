@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Menu } from '../../Models/Enum/menu.enum';
 import { PaginasService } from '../../Services/paginas.service';
+import { DatasComemorativasService } from '../../Services/datas-comemorativas.service';
 
 @Component({
   selector: 'app-menu',
@@ -12,15 +13,17 @@ import { PaginasService } from '../../Services/paginas.service';
 export class MenuComponent {
   public itensMenu: Menu[] = Object.values(Menu);
   paginasService: PaginasService;
-
+  datas: DatasComemorativasService; 
+    
   menuValue:boolean = false;
 
   toggleMenu(){
     this.menuValue =! this.menuValue ;
   }
 
-  constructor(paginasService: PaginasService){
+  constructor(paginasService: PaginasService, datas: DatasComemorativasService){
     this.paginasService = paginasService;
+    this.datas = datas;  
   }
 
   mudarPagina(item: string){

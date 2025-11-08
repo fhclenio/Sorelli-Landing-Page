@@ -7,6 +7,12 @@
         <div class="menu-icon-close" (click)="toggleMenu()">
             <i class="bi bi-x"></i>
         </div>
+        <div class="header-menu-mobile visivel-mobile">
+            <div>
+                <img src="{{this.datas.retornaLogoAtual()}}" class="imagem-logo">
+                <p class="montserrat texto text-white">(71) 9 9945-0506<br>atendimento&#64;pizzasorelli.com.br</p>
+            </div>
+        </div>
         <ul>
             @for (item of itensMenu; track $index) {
                 <li>
@@ -16,5 +22,13 @@
                 </li>
             }
         </ul>
+
+        <hr class="visivel-mobile">
+
+        <ul class="visivel-mobile">
+            <li><a href="" target="_blank">Compartilhe</a></li>
+            <li><a href="" target="_blank">Deixe seu feedback</a></li>
+        </ul>
+
     </div>
 </div>
