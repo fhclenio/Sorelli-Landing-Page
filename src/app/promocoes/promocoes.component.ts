@@ -21,17 +21,19 @@ export class PromocoesComponent {
     'banner-promocao-10.png'
   ];
 
-  esconderElementoPai(event: Event, index: number) {
+  esconderElemento(event: Event, index: number) {
+    const elementoImg = event.target as HTMLImageElement;
+
     if (index < 4) {
+      if(elementoImg)
+        elementoImg.style.display = 'none';
+
       return;
     }
-    
-    const elementoImg = event.target as HTMLImageElement;
-    
+        
     const elementoPai = elementoImg.parentElement;
-
-    if (elementoPai) {
+    if (elementoPai) 
       elementoPai.style.display = 'none';
-    }
+    
   }
 }

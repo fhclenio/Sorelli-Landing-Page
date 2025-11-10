@@ -5,7 +5,7 @@
         </div>
         @for (nomeImagem of listaDePromocoes; track nomeImagem; let i = $index) {
             <div class="conteudo-promocoes">
-                <img [src]="'./images/promocoes/' + nomeImagem" class="banner-image" [alt]="' '" (error)="esconderElementoPai($event, i)">
+                <img [src]="'./images/promocoes/' + nomeImagem" class="banner-image" [alt]="' '" (error)="esconderElemento($event, i)">
             </div>
         }
     </div>
