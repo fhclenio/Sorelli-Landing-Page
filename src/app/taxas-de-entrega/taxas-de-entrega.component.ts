@@ -15,7 +15,6 @@ export class TaxasDeEntregaComponent {
     { bairro: 'Barão de Camaçari (depois do largo)', valor: 'R$ 8,00' },
     { bairro: 'Boa Vista', valor: 'R$ 7,00' },
     { bairro: 'Bom Viver', valor: 'R$ 8,00' },
-    { bairro: 'BR', valor: 'R$ 8,00' },
     { bairro: 'Campinho', valor: 'R$ 8,00' },
     { bairro: 'Catende', valor: 'R$ 6,00' },
     { bairro: 'Centro', valor: 'R$ 6,00' },

@@ -36,10 +36,10 @@ export class DatasComemorativasService {
             var dataPascoa = new Date(dataString + 'T00:00:00');
 
             var dataFutura = new Date(dataPascoa);
-            dataFutura.setDate(dataFutura.getDate() + 14);
+            dataFutura.setDate(dataFutura.getDate() + 7);
 
             var dataPassada = new Date(dataPascoa);
-            dataPassada.setDate(dataPassada.getDate() - 14);
+            dataPassada.setDate(dataPassada.getDate() - 7);
 
             this.pascoa = new DataComemorativa(`-${(dataPassada.getMonth() + 1).toString().padStart(2, '0')}-${dataPassada.getDate().toString().padStart(2, '0')}T00:00:00`, `-${(dataFutura.getMonth() + 1).toString().padStart(2, '0')}-${dataFutura.getDate().toString().padStart(2, '0')}T00:00:00`);
           }

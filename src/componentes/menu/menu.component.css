@@ -99,7 +99,7 @@
     align-items: center;
     justify-content: center;
     background: #1e1e1e;
-    height: 51vw;
+    height: 49vw;
   }
 
   .visivel-mobile {
@@ -163,7 +163,7 @@
   .app-navbar ul {
     text-align: left;
     margin: 0;
-    padding: 6vw 6vw 10vw 0;
+    padding: 4vw 5vw 6vw 0;
     font-size: 16px;
     font-weight: 600;
   }
