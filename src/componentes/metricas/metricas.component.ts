@@ -12,6 +12,9 @@ export class MetricasComponent {
   
   href: string = '';
   anos = 0;
+  pizzas = "";
+  clientes = "";
+
   ngOnInit() {
       const dataFundacao = new Date('2017-10-12T00:00:00');
       const dataAtual = new Date();
@@ -26,6 +29,10 @@ export class MetricasComponent {
         diferencaAnos--;
 
       this.anos = diferencaAnos;
+
+      const formatter = new Intl.NumberFormat('pt-BR');
+      this.pizzas = formatter.format(6250 * this.anos);
+      this.clientes = formatter.format(1000 * this.anos);
   }
 
   abrirEmNovaAba() { window.open(this.href, '_blank'); }

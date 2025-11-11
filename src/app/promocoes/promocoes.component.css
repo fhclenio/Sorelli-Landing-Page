@@ -5,6 +5,7 @@
   text-align: center;
   font-weight: bold;
   border-radius: 6px 6px 0 0;
+  box-shadow: 0px 2px 7.5px 2px rgba(0, 0, 0, 0.1);
 }
 
 .container-promocoes {
@@ -37,11 +38,15 @@
 @media only screen and (orientation: portrait) {
     .container-promocoes {
         max-width: 90vw;  
-        padding-top: 4vw;
+        padding-top: 5vw;
         padding-bottom: 11vw;
     }
     .conteudo-promocoes {
         margin-top: 2vw;
         min-height: 30vw;
+    }
+
+    .titulo {
+        margin-bottom: 0;
     }
 }

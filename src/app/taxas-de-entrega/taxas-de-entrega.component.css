@@ -12,7 +12,6 @@
 .tabela-header {
   background-color: #202020;
   color: white;
-  padding: 16px;
   text-align: center;
   font-weight: bold;
 }
@@ -67,7 +66,7 @@ tr:last-child td {
 @media only screen and (orientation: portrait) {
   .tabela-container {
     max-width: 90vw;  
-    padding-top: 4vw;
+    padding-top: 5vw;
     padding-bottom: 11vw;
   }
 
@@ -77,5 +76,12 @@ tr:last-child td {
 
   tr:last-child td {
     padding-bottom: 4.5vw;
+  }
+
+}
+
+@media only screen and (orientation: landscape) {
+  .tabela-header {
+    padding: 16px;
   }
 }
