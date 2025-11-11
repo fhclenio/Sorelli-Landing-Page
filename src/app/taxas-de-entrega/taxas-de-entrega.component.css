@@ -63,6 +63,10 @@ tr:last-child td {
   background-color: #f5f5f5;
 }
 
+.texto {
+  vertical-align: middle;
+}
+
 @media only screen and (orientation: portrait) {
   .tabela-container {
     max-width: 90vw;  
