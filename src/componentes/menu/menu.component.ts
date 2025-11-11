@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Menu } from '../../Models/Enum/menu.enum';
 import { PaginasService } from '../../Services/paginas.service';
 import { DatasComemorativasService } from '../../Services/datas-comemorativas.service';
@@ -22,7 +22,7 @@ export class MenuComponent {
 
   href: string = '';
   
-  onInit(){
+  ngOnInit(){
     this.canShare = navigator.share !== undefined;
   }
 
